@@ -1,6 +1,5 @@
 with open('C://py_ege//26.txt', 'r') as f:
-    n = int(f.readline())
-    length = [int(i) for i in f]
+    length = [int(i) for i in f][1:]
     length.sort(reverse=True)
 
     count = 1
